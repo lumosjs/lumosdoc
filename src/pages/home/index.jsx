@@ -14,7 +14,7 @@ function Home() {
 
 
       <section className="mt-20 mb-16">
-        <h1 className="text-4xl text-center font-bold mb-4" id="examples">Examples in Lumosjs</h1>
+        <h1 className="text-4xl text-center font-bold mb-4" id="examples">Exemplos em Lumosjs</h1>
         <div className="flex flex-wrap justify-center space-x-4">
           
           <a
@@ -45,7 +45,7 @@ function Home() {
 
       {/* Section 5 - Informações do Criador do Framework */}
       <section className="mb-16">
-        <h1 className="text-4xl font-bold mb-4">Framework Creator</h1>
+        <h1 className="text-4xl font-bold mb-4">Framework Criador</h1>
         <div className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
           <img
             src="/victor.jpeg"
