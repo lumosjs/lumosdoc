@@ -27,18 +27,6 @@ function Home() {
               className="w-100 h-60 object-cover "
             />
           </a>
-
-          <a
-            href="/exemplo-2"
-            className="bg-white rounded-lg shadow-md p-4 m-2 flex flex-col items-center hover:shadow-xl transition duration-300 ease-in-out"
-          >
-            <img
-              src="/upload.png"
-              alt="Exemplo 2"
-              className="w-32 h-32 object-cover "
-            />
-            <h2 className="text-lg font-semibold mt-2">Upload de arquivos</h2>
-          </a>
         </div>
       </section>
 
