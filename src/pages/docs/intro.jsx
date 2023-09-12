@@ -15,7 +15,7 @@ export default function Intro() {
     }}>
 
       <p>
-        O <span style={{color:"red"}}>LumosJS</span> é um framework web em Node.js que oferece um ambiente flexível e poderoso 
+        O <span style={{color:"red"}}>LumosJS</span> é um framework web em Node.js que oferece um ambiente flexível  
         para o desenvolvimento de aplicações. Concebido para demonstrar 
         habilidades sólidas em programação Node.js, o LumosJS está em constante evolução e expansão, 
         visando fornecer uma estrutura sólida para projetos web de todos os tamanhos.
