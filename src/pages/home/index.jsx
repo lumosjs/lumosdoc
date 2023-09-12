@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Home() {
   return (
     <div className="bg-blue-100  flex flex-col justify-center items-center p-24">
-      <h1 className="text-5xl font-bold mb-6 p-4">A backend web framework for <span className="text-blue-500">Node.js</span></h1>
+      <h1 className="text-5xl font-bold mb-6 p-4">Um backend framework for <span className="text-blue-500">Node.js</span></h1>
       <p className="text-lg text-center mb-8 p-4">
         Lumosjs é um framework web em Node.js que oferece um ambiente flexível e simples 
         para o desenvolvimento de aplicações.  </p>
