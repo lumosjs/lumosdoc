@@ -18,7 +18,7 @@ function Home() {
         <div className="flex flex-wrap justify-center space-x-4">
           
           <a
-            href="/exemplo-1"
+            href="https://github.com/lumosjs/exemplos/tree/main/restApi"
             className="bg-white rounded-lg shadow-md p-4 m-2 flex flex-col items-center hover:shadow-xl transition duration-300 ease-in-out"
           >
             <img
