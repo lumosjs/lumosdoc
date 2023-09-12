@@ -25,12 +25,6 @@ function SideMenu() {
           </Link>
         </li>
 
-         <li className="mb-4">
-          <Link to="/docs/examples" className="text-blue-300 hover:text-blue-500 block">
-            Deployment
-          </Link>
-        </li>
-
         <li className="mb-4">
           <Link to="/docs/routes" className="text-blue-300 hover:text-blue-500 block">
             Routing
