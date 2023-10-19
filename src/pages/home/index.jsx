@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from "react-router-dom"
 
 function Home() {
@@ -6,7 +5,7 @@ function Home() {
     <div className="bg-blue-100  flex flex-col justify-center items-center p-24">
       <h1 className="text-5xl font-bold mb-6 p-4">Um backend framework for <span className="text-blue-500">Node.js</span></h1>
       <p className="text-lg text-center mb-8 p-4">
-        Lumosjs é um framework web em Node.js que oferece um ambiente flexível e simples 
+        Lumosjs é um framework web em Node.js<br /> que oferece um ambiente flexível e simples 
         para o desenvolvimento de aplicações.  </p>
       <div className="space-x-4">
         <Link to="/docs" className="bg-black text-white pd-10 px-6 py-3 rounded-xl text-lg font-semibold hover:bg-blue-600 transition duration-300 ease-in-out">Get Started</Link>

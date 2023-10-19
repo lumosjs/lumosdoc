@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+import './styles/index.css'
+import './styles/boxicons-2.1.4/css/boxicons.min.css'
 
-import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
+import { BrowserView, MobileView} from 'react-device-detect';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
