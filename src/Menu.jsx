@@ -1,9 +1,8 @@
-import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <div className="h-screen bg-blue-100">
+    <div className="h-screen bg-blue-100 menu">
     <nav className="bg-blue-100 flex flex-row justify-between items-center p-4">
       <div className="flex items-center">
         {/* Adicione a imagem ao lado do nome "Lumos" */}

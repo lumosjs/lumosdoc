@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
 import Home from './pages/home'; 
 import Docs from "./pages/docs"
@@ -22,9 +21,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigation />}>
-          <Route index element={<Home />} />
-          <Route path="docs" element={<Docs />}>
+            <Route path="/" element={<Navigation />}>
+            <Route index element={<Home />} />
+            <Route path="docs" element={<Docs />}>
             <Route index element={<Intro />} />
             <Route path="/docs/installation" element={<Installation />}/>
             <Route path="/docs/env" element={<Env />}/>
@@ -40,7 +39,7 @@ function App() {
             <Route path="/docs/validation" element={<Validation />}/>
             <Route path="/docs/security" element={<Security />}/>
             <Route path="/docs/testing" element={<Testing />}/>
-          </Route>  
+            </Route>  
         </Route>
       </Routes>
 </BrowserRouter>

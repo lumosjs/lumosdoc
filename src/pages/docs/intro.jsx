@@ -19,7 +19,7 @@ export default function Intro() {
         para o desenvolvimento de aplicações. Concebido para demonstrar 
         habilidades sólidas em programação Node.js, o LumosJS está em constante evolução e expansão, 
         visando fornecer uma estrutura sólida para projetos web de todos os tamanhos.
-      </p>
+      </p><br />
       </div>
 
 
@@ -38,8 +38,7 @@ export default function Intro() {
 
         <h4 className="text-2xl mb-8 mt-6"> Escolha da ORM</h4>
         <p>
-            Reconhecendo a diversidade de preferências no desenvolvimento de <br/> 
-            <span style={{color:"red"}}>bancos de dados</span>
+            Reconhecendo a diversidade de preferências no desenvolvimento de <span style={{color:"red"}}>bancos de dados</span>
             ..... O LumosJS não impõe uma ORM específica. Os desenvolvedores têm a liberdade de escolher
             entre ferramentas como Prisma, Sequelize,TypeOrm e outras,
             para se adequarem aos requisitos exclusivos de seus projetos.
@@ -56,94 +55,94 @@ export default function Intro() {
         
         {/* Pasta app */}
         <div className="flex items-center space-x-4">
-          <div className="w-4 h-4 bg-black rounded-full"></div>
+          <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
           <p className="text-black">app/</p>
         </div>
 
         {/* Subpastas dentro de app */}
         <div className="ml-6 space-y-2">
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+          <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
             <p className="text-black">controllers/</p>
           </div>
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+          <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
             <p className="text-black">services/</p>
           </div>
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+          <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
             <p className="text-black">middlewares/</p>
           </div>
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+          <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
             <p className="text-black">models/</p>
           </div>
         </div>
 
         {/* Pasta routes */}
         <div className="flex items-center space-x-4 mt-4">
-          <div className="w-4 h-4 bg-black rounded-full"></div>
+        <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
           <p className="text-black">routes/</p>
         </div>
 
         {/* Arquivo api.js dentro de routes */}
         <div className="ml-6">
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+            <div className="w-3 h-3"><i class='bx bxs-file-js yellow-color' /></div>
             <p className="text-black">api.js</p>
           </div>
         </div>
 
         {/* Pasta public */}
         <div className="flex items-center space-x-4 mt-4">
-          <div className="w-4 h-4 bg-black rounded-full"></div>
+        <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
           <p className="text-black">public/</p>
         </div>
 
         {/* Pasta log */}
         <div className="flex items-center space-x-4 mt-4">
-          <div className="w-4 h-4 bg-black rounded-full"></div>
+        <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
           <p className="text-black">log/</p>
         </div>
 
         {/* Pasta test */}
         <div className="flex items-center space-x-4 mt-4">
-          <div className="w-4 h-4 bg-black rounded-full"></div>
+        <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
           <p className="text-black">test/</p>
         </div>
 
         {/* Pasta lib */}
         <div className="flex items-center space-x-4 mt-4">
-          <div className="w-4 h-4 bg-black rounded-full"></div>
+        <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
           <p className="text-black">lib/</p>
         </div>
 
         {/* Subpastas dentro de lib */}
         <div className="ml-6 space-y-2">
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+          <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
             <p className="text-black">core/</p>
           </div>
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+          <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
             <p className="text-black">helpers/</p>
           </div>
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+          <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
             <p className="text-black">utils/</p>
           </div>
         </div>
 
         {/* Pasta config */}
         <div className="flex items-center space-x-4 mt-4">
-          <div className="w-4 h-4 bg-black rounded-full"></div>
+        <div className="w-4 h-4"><i className='bx bxs-folder blue-color' /></div>
           <p className="text-black">config/</p>
         </div>
 
         {/* Arquivo headers.js dentro de config */}
         <div className="ml-6">
           <div className="flex items-center space-x-4">
-            <div className="w-3 h-3 bg-black rounded-full"></div>
+          <div className="w-3 h-3"><i class='bx bxs-file-js yellow-color' /></div>
             <p className="text-black">headers.js</p>
           </div>
         </div>
