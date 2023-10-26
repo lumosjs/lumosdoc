@@ -15,7 +15,7 @@ const Navigation = () => {
           <Link to="/" className="text-black hover:underline">Home</Link>
         </li>
         <li>
-          <Link to="/docs" className="text-black hover:underline">Learn</Link>
+          <Link to="/docs" className="text-black hover:underline">Documentação</Link>
         </li>
         <li>
           <Link to="https://github.com/lumosjs" className="text-black hover:underline">Github</Link>
