@@ -10,29 +10,29 @@ function SideMenu() {
       <ul className="px-4">
         <li className="mb-4">
           <Link to="/docs" className="text-blue-300 hover:text-blue-500 block">
-            Introduction
+            Introdução
           </Link>
         </li>
         <li className="mb-4">
           <Link to="/docs/installation" className="text-blue-300 hover:text-blue-500 block">
-            Installation
+            Instalação
           </Link>
         </li>
         <li className="mb-4">
           <Link to="/docs/env" className="text-blue-300 hover:text-blue-500 block">
-            Environment variables
+            Variáveis de Ambiente
           </Link>
         </li>
 
         <li className="mb-4">
           <Link to="/docs/routes" className="text-blue-300 hover:text-blue-500 block">
-            Routing
+            Routeamento
           </Link>
         </li>
 
         <li className="mb-4">
           <Link to="/docs/controller" className="text-blue-300 hover:text-blue-500 block">
-            Controllers
+            Controladores
           </Link>
         </li>
 
